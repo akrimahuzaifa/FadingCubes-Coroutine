@@ -104,8 +104,8 @@ public class FadeinOut : MonoBehaviour
 
     private void OnMouseDown()
     {
-        objToFind = GameObject.FindGameObjectWithTag("Cube");
-        Debug.Log("The (\"" + objToFind.name + "\") is Clicked");
+        //objToFind = GameObject.FindGameObjectWithTag("Cube");
+        //Debug.Log("The (\"" + objToFind.name + "\") is Clicked");
        
         StartCoroutine(FadeIn());
     }
